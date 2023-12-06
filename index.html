@@ -1,1 +1,566 @@
-<div id="ttkceyyxfy" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">\n<style>\n#ttkceyyxfy table {\n          font-family: -apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, Oxygen, Ubuntu, Cantarell, \'Helvetica Neue\', \'Fira Sans\', \'Droid Sans\', Arial, sans-serif;\n          -webkit-font-smoothing: antialiased;\n          -moz-osx-font-smoothing: grayscale;\n        }\n\n#ttkceyyxfy thead, tbody, tfoot, tr, td, th {\n  border-style: none; }\n\n#ttkceyyxfy p {\n  margin: 0;\n  padding: 0; }\n\n#ttkceyyxfy .gt_table {\n  display: table;\n  border-collapse: collapse;\n  line-height: normal;\n  margin-left: auto;\n  margin-right: auto;\n  color: #333333;\n  font-size: 16px;\n  font-weight: normal;\n  font-style: normal;\n  background-color: #FFFFFF;\n  width: auto;\n  border-top-style: solid;\n  border-top-width: 2px;\n  border-top-color: #A8A8A8;\n  border-right-style: none;\n  border-right-width: 2px;\n  border-right-color: #D3D3D3;\n  border-bottom-style: solid;\n  border-bottom-width: 2px;\n  border-bottom-color: #A8A8A8;\n  border-left-style: none;\n  border-left-width: 2px;\n  border-left-color: #D3D3D3; }\n\n#ttkceyyxfy .gt_caption {\n  padding-top: 4px;\n  padding-bottom: 4px; }\n\n#ttkceyyxfy .gt_title {\n  color: #333333;\n  font-size: 125%;\n  font-weight: initial;\n  padding-top: 4px;\n  padding-bottom: 4px;\n  padding-left: 5px;\n  padding-right: 5px;\n  border-bottom-color: #FFFFFF;\n  border-bottom-width: 0; }\n\n#ttkceyyxfy .gt_subtitle {\n  color: #333333;\n  font-size: 85%;\n  font-weight: initial;\n  padding-top: 3px;\n  padding-bottom: 5px;\n  padding-left: 5px;\n  padding-right: 5px;\n  border-top-color: #FFFFFF;\n  border-top-width: 0; }\n\n#ttkceyyxfy .gt_heading {\n  background-color: #FFFFFF;\n  text-align: center;\n  border-bottom-color: #FFFFFF;\n  border-left-style: none;\n  border-left-width: 1px;\n  border-left-color: #D3D3D3;\n  border-right-style: none;\n  border-right-width: 1px;\n  border-right-color: #D3D3D3; }\n\n#ttkceyyxfy .gt_bottom_border {\n  border-bottom-style: solid;\n  border-bottom-width: 2px;\n  border-bottom-color: #D3D3D3; }\n\n#ttkceyyxfy .gt_col_headings {\n  border-top-style: solid;\n  border-top-width: 2px;\n  border-top-color: #D3D3D3;\n  border-bottom-style: solid;\n  border-bottom-width: 2px;\n  border-bottom-color: #D3D3D3;\n  border-left-style: none;\n  border-left-width: 1px;\n  border-left-color: #D3D3D3;\n  border-right-style: none;\n  border-right-width: 1px;\n  border-right-color: #D3D3D3; }\n\n#ttkceyyxfy .gt_col_heading {\n  color: #333333;\n  background-color: #FFFFFF;\n  font-size: 100%;\n  font-weight: normal;\n  text-transform: inherit;\n  border-left-style: none;\n  border-left-width: 1px;\n  border-left-color: #D3D3D3;\n  border-right-style: none;\n  border-right-width: 1px;\n  border-right-color: #D3D3D3;\n  vertical-align: bottom;\n  padding-top: 5px;\n  padding-bottom: 6px;\n  padding-left: 5px;\n  padding-right: 5px;\n  overflow-x: hidden; }\n\n#ttkceyyxfy .gt_column_spanner_outer {\n  color: #333333;\n  background-color: #FFFFFF;\n  font-size: 100%;\n  font-weight: normal;\n  text-transform: inherit;\n  padding-top: 0;\n  padding-bottom: 0;\n  padding-left: 4px;\n  padding-right: 4px; }\n\n#ttkceyyxfy .gt_column_spanner_outer:first-child {\n  padding-left: 0; }\n\n#ttkceyyxfy .gt_column_spanner_outer:last-child {\n  padding-right: 0; }\n\n#ttkceyyxfy .gt_column_spanner {\n  border-bottom-style: solid;\n  border-bottom-width: 2px;\n  border-bottom-color: #D3D3D3;\n  vertical-align: bottom;\n  padding-top: 5px;\n  padding-bottom: 5px;\n  overflow-x: hidden;\n  display: inline-block;\n  width: 100%; }\n\n#ttkceyyxfy .gt_spanner_row {\n  border-bottom-style: hidden; }\n\n#ttkceyyxfy .gt_group_heading {\n  padding-top: 8px;\n  padding-bottom: 8px;\n  padding-left: 5px;\n  padding-right: 5px;\n  color: #333333;\n  background-color: #FFFFFF;\n  font-size: 100%;\n  font-weight: initial;\n  text-transform: inherit;\n  border-top-style: solid;\n  border-top-width: 2px;\n  border-top-color: #D3D3D3;\n  border-bottom-style: solid;\n  border-bottom-width: 2px;\n  border-bottom-color: #D3D3D3;\n  border-left-style: none;\n  border-left-width: 1px;\n  border-left-color: #D3D3D3;\n  border-right-style: none;\n  border-right-width: 1px;\n  border-right-color: #D3D3D3;\n  vertical-align: middle;\n  text-align: left; }\n\n#ttkceyyxfy .gt_empty_group_heading {\n  padding: 0.5px;\n  color: #333333;\n  background-color: #FFFFFF;\n  font-size: 100%;\n  font-weight: initial;\n  border-top-style: solid;\n  border-top-width: 2px;\n  border-top-color: #D3D3D3;\n  border-bottom-style: solid;\n  border-bottom-width: 2px;\n  border-bottom-color: #D3D3D3;\n  vertical-align: middle; }\n\n#ttkceyyxfy .gt_from_md > :first-child {\n  margin-top: 0; }\n\n#ttkceyyxfy .gt_from_md > :last-child {\n  margin-bottom: 0; }\n\n#ttkceyyxfy .gt_row {\n  padding-top: 8px;\n  padding-bottom: 8px;\n  padding-left: 5px;\n  padding-right: 5px;\n  margin: 10px;\n  border-top-style: solid;\n  border-top-width: 1px;\n  border-top-color: #D3D3D3;\n  border-left-style: none;\n  border-left-width: 1px;\n  border-left-color: #D3D3D3;\n  border-right-style: none;\n  border-right-width: 1px;\n  border-right-color: #D3D3D3;\n  vertical-align: middle;\n  overflow-x: hidden; }\n\n#ttkceyyxfy .gt_stub {\n  color: #333333;\n  background-color: #FFFFFF;\n  font-size: 100%;\n  font-weight: initial;\n  text-transform: inherit;\n  border-right-style: solid;\n  border-right-width: 2px;\n  border-right-color: #D3D3D3;\n  padding-left: 5px;\n  padding-right: 5px; }\n\n#ttkceyyxfy .gt_stub_row_grou#ttkceyyxfy p {\n  color: #333333;\n  background-color: #FFFFFF;\n  font-size: 100%;\n  font-weight: initial;\n  text-transform: inherit;\n  border-right-style: solid;\n  border-right-width: 2px;\n  border-right-color: #D3D3D3;\n  padding-left: 5px;\n  padding-right: 5px;\n  vertical-align: top; }\n\n#ttkceyyxfy .gt_row_group_first td {\n  border-top-width: 2px; }\n\n#ttkceyyxfy .gt_row_group_first th {\n  border-top-width: 2px; }\n\n#ttkceyyxfy .gt_summary_row {\n  color: #333333;\n  background-color: #FFFFFF;\n  text-transform: inherit;\n  padding-top: 8px;\n  padding-bottom: 8px;\n  padding-left: 5px;\n  padding-right: 5px; }\n\n#ttkceyyxfy .gt_first_summary_row {\n  border-top-style: solid;\n  border-top-color: #D3D3D3; }\n\n#ttkceyyxfy .gt_first_summary_row.thick {\n  border-top-width: 2px; }\n\n#ttkceyyxfy .gt_last_summary_row {\n  padding-top: 8px;\n  padding-bottom: 8px;\n  padding-left: 5px;\n  padding-right: 5px;\n  border-bottom-style: solid;\n  border-bottom-width: 2px;\n  border-bottom-color: #D3D3D3; }\n\n#ttkceyyxfy .gt_grand_summary_row {\n  color: #333333;\n  background-color: #FFFFFF;\n  text-transform: inherit;\n  padding-top: 8px;\n  padding-bottom: 8px;\n  padding-left: 5px;\n  padding-right: 5px; }\n\n#ttkceyyxfy .gt_first_grand_summary_row {\n  padding-top: 8px;\n  padding-bottom: 8px;\n  padding-left: 5px;\n  padding-right: 5px;\n  border-top-style: double;\n  border-top-width: 6px;\n  border-top-color: #D3D3D3; }\n\n#ttkceyyxfy .gt_last_grand_summary_row_to#ttkceyyxfy p {\n  padding-top: 8px;\n  padding-bottom: 8px;\n  padding-left: 5px;\n  padding-right: 5px;\n  border-bottom-style: double;\n  border-bottom-width: 6px;\n  border-bottom-color: #D3D3D3; }\n\n#ttkceyyxfy .gt_striped {\n  background-color: rgba(128, 128, 128, 0.05); }\n\n#ttkceyyxfy .gt_table_body {\n  border-top-style: solid;\n  border-top-width: 2px;\n  border-top-color: #D3D3D3;\n  border-bottom-style: solid;\n  border-bottom-width: 2px;\n  border-bottom-color: #D3D3D3; }\n\n#ttkceyyxfy .gt_footnotes {\n  color: #333333;\n  background-color: #FFFFFF;\n  border-bottom-style: none;\n  border-bottom-width: 2px;\n  border-bottom-color: #D3D3D3;\n  border-left-style: none;\n  border-left-width: 2px;\n  border-left-color: #D3D3D3;\n  border-right-style: none;\n  border-right-width: 2px;\n  border-right-color: #D3D3D3; }\n\n#ttkceyyxfy .gt_footnote {\n  margin: 0px;\n  font-size: 90%;\n  padding-left: 4px;\n  padding-right: 4px;\n  padding-left: 5px;\n  padding-right: 5px; }\n\n#ttkceyyxfy .gt_sourcenotes {\n  color: #333333;\n  background-color: #FFFFFF;\n  border-bottom-style: none;\n  border-bottom-width: 2px;\n  border-bottom-color: #D3D3D3;\n  border-left-style: none;\n  border-left-width: 2px;\n  border-left-color: #D3D3D3;\n  border-right-style: none;\n  border-right-width: 2px;\n  border-right-color: #D3D3D3; }\n\n#ttkceyyxfy .gt_sourcenote {\n  font-size: 90%;\n  padding-top: 4px;\n  padding-bottom: 4px;\n  padding-left: 5px;\n  padding-right: 5px; }\n\n#ttkceyyxfy .gt_left {\n  text-align: left; }\n\n#ttkceyyxfy .gt_center {\n  text-align: center; }\n\n#ttkceyyxfy .gt_right {\n  text-align: right;\n  font-variant-numeric: tabular-nums; }\n\n#ttkceyyxfy .gt_font_normal {\n  font-weight: normal; }\n\n#ttkceyyxfy .gt_font_bold {\n  font-weight: bold; }\n\n#ttkceyyxfy .gt_font_italic {\n  font-style: italic; }\n\n#ttkceyyxfy .gt_super {\n  font-size: 65%; }\n\n#ttkceyyxfy .gt_footnote_marks {\n  font-size: 75%;\n  vertical-align: 0.4em;\n  position: initial; }\n\n#ttkceyyxfy .gt_asterisk {\n  font-size: 100%;\n  vertical-align: 0; }\n\n</style>\n<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">\n<thead class="gt_header">  <tr>\n    <th colspan="3" class="gt_heading gt_title gt_font_normal"><span style=\'color: #ff0000; text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;\'>chet holmgren</span>\n  </tr></thead>\n<tr class="gt_col_headings"><th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id=""></th>\n<th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="o_darko">o_darko</th>\n<th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="d_darko">d_darko</th></tr>\n<tbody class="gt_table_body">\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-12-06</th>\n  <td class="gt_row gt_right">0.70</td>\n  <td class="gt_row gt_right">1.79</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-12-05</th>\n  <td class="gt_row gt_right">0.70</td>\n  <td class="gt_row gt_right">1.79</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-12-02</th>\n  <td class="gt_row gt_right">0.94</td>\n  <td class="gt_row gt_right">1.29</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-30</th>\n  <td class="gt_row gt_right">0.83</td>\n  <td class="gt_row gt_right">1.71</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-28</th>\n  <td class="gt_row gt_right">1.11</td>\n  <td class="gt_row gt_right">1.80</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-25</th>\n  <td class="gt_row gt_right">0.67</td>\n  <td class="gt_row gt_right">1.73</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-22</th>\n  <td class="gt_row gt_right">0.55</td>\n  <td class="gt_row gt_right">1.98</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-21</th>\n  <td class="gt_row gt_right">0.24</td>\n  <td class="gt_row gt_right">1.69</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-20</th>\n  <td class="gt_row gt_right">0.24</td>\n  <td class="gt_row gt_right">1.69</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-19</th>\n  <td class="gt_row gt_right">0.24</td>\n  <td class="gt_row gt_right">1.69</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-18</th>\n  <td class="gt_row gt_right">0.21</td>\n  <td class="gt_row gt_right">1.48</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-17</th>\n  <td class="gt_row gt_right">0.11</td>\n  <td class="gt_row gt_right">1.16</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-16</th>\n  <td class="gt_row gt_right">0.11</td>\n  <td class="gt_row gt_right">1.16</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-15</th>\n  <td class="gt_row gt_right">0.18</td>\n  <td class="gt_row gt_right">1.28</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-14</th>\n  <td class="gt_row gt_right">0.18</td>\n  <td class="gt_row gt_right">1.29</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-13</th>\n  <td class="gt_row gt_right">0.72</td>\n  <td class="gt_row gt_right">1.29</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-12</th>\n  <td class="gt_row gt_right">−0.52</td>\n  <td class="gt_row gt_right">1.17</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-11</th>\n  <td class="gt_row gt_right">0.72</td>\n  <td class="gt_row gt_right">1.29</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-10</th>\n  <td class="gt_row gt_right">0.04</td>\n  <td class="gt_row gt_right">1.34</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-09</th>\n  <td class="gt_row gt_right">0.72</td>\n  <td class="gt_row gt_right">1.29</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-08</th>\n  <td class="gt_row gt_right">0.43</td>\n  <td class="gt_row gt_right">0.99</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-07</th>\n  <td class="gt_row gt_right">0.72</td>\n  <td class="gt_row gt_right">1.29</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-06</th>\n  <td class="gt_row gt_right">0.71</td>\n  <td class="gt_row gt_right">1.14</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-05</th>\n  <td class="gt_row gt_right">−0.75</td>\n  <td class="gt_row gt_right">0.82</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-04</th>\n  <td class="gt_row gt_right">−0.75</td>\n  <td class="gt_row gt_right">0.82</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-03</th>\n  <td class="gt_row gt_right">0.24</td>\n  <td class="gt_row gt_right">1.32</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-02</th>\n  <td class="gt_row gt_right">−0.75</td>\n  <td class="gt_row gt_right">0.82</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-11-01</th>\n  <td class="gt_row gt_right">−0.10</td>\n  <td class="gt_row gt_right">1.04</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-10-31</th>\n  <td class="gt_row gt_right">−0.75</td>\n  <td class="gt_row gt_right">0.82</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-10-30</th>\n  <td class="gt_row gt_right">−0.13</td>\n  <td class="gt_row gt_right">1.18</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-10-29</th>\n  <td class="gt_row gt_right">−0.74</td>\n  <td class="gt_row gt_right">1.38</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-10-28</th>\n  <td class="gt_row gt_right">−0.75</td>\n  <td class="gt_row gt_right">0.82</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-10-27</th>\n  <td class="gt_row gt_right">−0.80</td>\n  <td class="gt_row gt_right">0.09</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-10-26</th>\n  <td class="gt_row gt_right">−0.49</td>\n  <td class="gt_row gt_right">0.65</td>\n</tr>\n<tr>\n  <th class="gt_row gt_left gt_stub">2023-10-25</th>\n  <td class="gt_row gt_right">−0.75</td>\n  <td class="gt_row gt_right">0.82</td>\n</tr>\n</tbody>\n\n\n</table>\n\n</div>
+<div id="vfbyvoggjq" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>
+#vfbyvoggjq table {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+
+#vfbyvoggjq thead, tbody, tfoot, tr, td, th {
+  border-style: none; }
+
+#vfbyvoggjq p {
+  margin: 0;
+  padding: 0; }
+
+#vfbyvoggjq .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3; }
+
+#vfbyvoggjq .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px; }
+
+#vfbyvoggjq .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0; }
+
+#vfbyvoggjq .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0; }
+
+#vfbyvoggjq .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3; }
+
+#vfbyvoggjq .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3; }
+
+#vfbyvoggjq .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3; }
+
+#vfbyvoggjq .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden; }
+
+#vfbyvoggjq .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px; }
+
+#vfbyvoggjq .gt_column_spanner_outer:first-child {
+  padding-left: 0; }
+
+#vfbyvoggjq .gt_column_spanner_outer:last-child {
+  padding-right: 0; }
+
+#vfbyvoggjq .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%; }
+
+#vfbyvoggjq .gt_spanner_row {
+  border-bottom-style: hidden; }
+
+#vfbyvoggjq .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left; }
+
+#vfbyvoggjq .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle; }
+
+#vfbyvoggjq .gt_from_md > :first-child {
+  margin-top: 0; }
+
+#vfbyvoggjq .gt_from_md > :last-child {
+  margin-bottom: 0; }
+
+#vfbyvoggjq .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden; }
+
+#vfbyvoggjq .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+#vfbyvoggjq .gt_stub_row_grou#vfbyvoggjq p {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top; }
+
+#vfbyvoggjq .gt_row_group_first td {
+  border-top-width: 2px; }
+
+#vfbyvoggjq .gt_row_group_first th {
+  border-top-width: 2px; }
+
+#vfbyvoggjq .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+#vfbyvoggjq .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3; }
+
+#vfbyvoggjq .gt_first_summary_row.thick {
+  border-top-width: 2px; }
+
+#vfbyvoggjq .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3; }
+
+#vfbyvoggjq .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+#vfbyvoggjq .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3; }
+
+#vfbyvoggjq .gt_last_grand_summary_row_to#vfbyvoggjq p {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3; }
+
+#vfbyvoggjq .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05); }
+
+#vfbyvoggjq .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3; }
+
+#vfbyvoggjq .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3; }
+
+#vfbyvoggjq .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+#vfbyvoggjq .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3; }
+
+#vfbyvoggjq .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+#vfbyvoggjq .gt_left {
+  text-align: left; }
+
+#vfbyvoggjq .gt_center {
+  text-align: center; }
+
+#vfbyvoggjq .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums; }
+
+#vfbyvoggjq .gt_font_normal {
+  font-weight: normal; }
+
+#vfbyvoggjq .gt_font_bold {
+  font-weight: bold; }
+
+#vfbyvoggjq .gt_font_italic {
+  font-style: italic; }
+
+#vfbyvoggjq .gt_super {
+  font-size: 65%; }
+
+#vfbyvoggjq .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial; }
+
+#vfbyvoggjq .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0; }
+
+</style>
+<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead class="gt_header">  <tr>
+    <th colspan="3" class="gt_heading gt_title gt_font_normal"><span style='color: #ff0000; text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;'>chet holmgren</span>
+  </tr></thead>
+<tr class="gt_col_headings"><th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id=""></th>
+<th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="o_darko">o_darko</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="d_darko">d_darko</th></tr>
+<tbody class="gt_table_body">
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-12-06</th>
+  <td class="gt_row gt_right">0.70</td>
+  <td class="gt_row gt_right">1.79</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-12-05</th>
+  <td class="gt_row gt_right">0.70</td>
+  <td class="gt_row gt_right">1.79</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-12-02</th>
+  <td class="gt_row gt_right">0.94</td>
+  <td class="gt_row gt_right">1.29</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-30</th>
+  <td class="gt_row gt_right">0.83</td>
+  <td class="gt_row gt_right">1.71</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-28</th>
+  <td class="gt_row gt_right">1.11</td>
+  <td class="gt_row gt_right">1.80</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-25</th>
+  <td class="gt_row gt_right">0.67</td>
+  <td class="gt_row gt_right">1.73</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-22</th>
+  <td class="gt_row gt_right">0.55</td>
+  <td class="gt_row gt_right">1.98</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-21</th>
+  <td class="gt_row gt_right">0.24</td>
+  <td class="gt_row gt_right">1.69</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-20</th>
+  <td class="gt_row gt_right">0.24</td>
+  <td class="gt_row gt_right">1.69</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-19</th>
+  <td class="gt_row gt_right">0.24</td>
+  <td class="gt_row gt_right">1.69</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-18</th>
+  <td class="gt_row gt_right">0.21</td>
+  <td class="gt_row gt_right">1.48</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-17</th>
+  <td class="gt_row gt_right">0.11</td>
+  <td class="gt_row gt_right">1.16</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-16</th>
+  <td class="gt_row gt_right">0.11</td>
+  <td class="gt_row gt_right">1.16</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-15</th>
+  <td class="gt_row gt_right">0.18</td>
+  <td class="gt_row gt_right">1.28</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-14</th>
+  <td class="gt_row gt_right">0.18</td>
+  <td class="gt_row gt_right">1.29</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-13</th>
+  <td class="gt_row gt_right">0.72</td>
+  <td class="gt_row gt_right">1.29</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-12</th>
+  <td class="gt_row gt_right">−0.52</td>
+  <td class="gt_row gt_right">1.17</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-11</th>
+  <td class="gt_row gt_right">0.72</td>
+  <td class="gt_row gt_right">1.29</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-10</th>
+  <td class="gt_row gt_right">0.04</td>
+  <td class="gt_row gt_right">1.34</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-09</th>
+  <td class="gt_row gt_right">0.72</td>
+  <td class="gt_row gt_right">1.29</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-08</th>
+  <td class="gt_row gt_right">0.43</td>
+  <td class="gt_row gt_right">0.99</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-07</th>
+  <td class="gt_row gt_right">0.72</td>
+  <td class="gt_row gt_right">1.29</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-06</th>
+  <td class="gt_row gt_right">0.71</td>
+  <td class="gt_row gt_right">1.14</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-05</th>
+  <td class="gt_row gt_right">−0.75</td>
+  <td class="gt_row gt_right">0.82</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-04</th>
+  <td class="gt_row gt_right">−0.75</td>
+  <td class="gt_row gt_right">0.82</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-03</th>
+  <td class="gt_row gt_right">0.24</td>
+  <td class="gt_row gt_right">1.32</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-02</th>
+  <td class="gt_row gt_right">−0.75</td>
+  <td class="gt_row gt_right">0.82</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-11-01</th>
+  <td class="gt_row gt_right">−0.10</td>
+  <td class="gt_row gt_right">1.04</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-10-31</th>
+  <td class="gt_row gt_right">−0.75</td>
+  <td class="gt_row gt_right">0.82</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-10-30</th>
+  <td class="gt_row gt_right">−0.13</td>
+  <td class="gt_row gt_right">1.18</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-10-29</th>
+  <td class="gt_row gt_right">−0.74</td>
+  <td class="gt_row gt_right">1.38</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-10-28</th>
+  <td class="gt_row gt_right">−0.75</td>
+  <td class="gt_row gt_right">0.82</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-10-27</th>
+  <td class="gt_row gt_right">−0.80</td>
+  <td class="gt_row gt_right">0.09</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-10-26</th>
+  <td class="gt_row gt_right">−0.49</td>
+  <td class="gt_row gt_right">0.65</td>
+</tr>
+<tr>
+  <th class="gt_row gt_left gt_stub">2023-10-25</th>
+  <td class="gt_row gt_right">−0.75</td>
+  <td class="gt_row gt_right">0.82</td>
+</tr>
+</tbody>
+
+
+</table>
+
+</div>
+        
